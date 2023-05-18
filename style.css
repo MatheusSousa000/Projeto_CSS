@@ -1,0 +1,1086 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#indicator {
+  background-color: #2b2a2a;
+  height: .35rem;
+  width: 0;
+  position: fixed;
+  top: 0;
+}
+
+header {
+  background-color: #000000;
+  min-height: 3.1rem;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-between;
+  gap: 0.9rem;
+  padding: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+p {
+  cursor: default;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid transparent;
+  background-color: transparent;
+  transition: 0.8s;
+}
+.icon:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+#navBarBtn {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid transparent;
+  border-radius: 0.6rem;
+  padding: 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+#navBarBtn:hover{
+  background-color: #999999;
+}
+
+#navBar {
+  display: flex;
+  min-height: 3.1rem;
+  flex-wrap: wrap;
+  font-weight: 600;
+  gap: 10px;
+  align-items: center;
+  padding: 0.9rem;
+  justify-content: space-between;
+  background-color: rgb(250, 250, 250);
+  border-bottom: 1px solid #cfcece
+}
+
+#travel {
+  transition: 0.9s;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+
+#travel:hover {
+  box-shadow: 0 2px 0 0 currentColor;
+}
+
+#uberBlog {
+  transition: 0.8s;
+  color:#ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#uberBlog:hover {
+  color: #999999;
+  transform: scale(1.1);
+}
+
+#navBarButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0.4rem;
+}
+
+.navBarButton {
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: 0.9s;
+}
+
+.navBarButton:hover {
+  color: #3d1212;
+  box-shadow: 0 2px 0 0 currentColor;
+}
+
+#main-content-uber {
+  display: grid;
+  place-items: center;
+}
+
+#guide {
+  font-size: 2rem;
+  font-weight: 1000;
+  margin: 0 0 1rem 0;
+}
+
+#topContent {
+  display: grid;
+  place-items: center;
+  padding-top: 3rem;
+}
+
+#ride {
+  margin-left: 0.1rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#content {
+  max-width: 45rem;
+}
+
+#date {
+  font-size: 0.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 0.1rem;
+  font-weight: 300;
+}
+
+#mainIcons {
+  margin-top: 1rem;
+}
+
+.icons {
+  width: 1.7rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.6s;
+  padding: 0.2rem;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+  border-bottom: 1px solid #3d1212;
+}
+
+#topContent #imgUber {
+  max-width: 70rem;
+  height: 25rem;
+  width: 100%;
+  transition: 0.7s;
+  margin-top: 3rem;
+}
+#imgUber:hover {
+  transform: scale(1.04);
+}
+
+#paragraphs {
+  margin: 0 auto;
+  max-width: 45rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.esperation {
+  margin: 3.3rem 0 2rem 0;
+}
+
+.titles {
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#paragraph {
+  max-width: 43rem;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+#address {
+  max-width: 40rem;
+  margin-bottom: 0.6rem;
+  margin-left: 2rem;
+  width: 100%;
+}
+
+#addressRio {
+  margin-left: 2rem;
+}
+
+#path {
+  font-weight: 600;
+}
+
+.li {
+  margin-left: 1.6rem;
+  max-width: 42rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.li-child {
+  margin-left: 2.8rem;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#hrFinally {
+  max-width: 2rem;
+}
+
+#rideFinally {
+  color: #003cff;
+  font-weight: 600;
+}
+
+#finally {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(240, 240, 240);
+  border-radius: 0.6rem;
+  max-width: 14.4rem;
+  padding-left: 0.5rem;
+  transition: 0.8s;
+  text-align: center;
+}
+
+#finally:hover {
+  background-color: rgb(210, 210, 210);
+  transform: scale(1.1);
+}
+
+#mainRequest {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #000000;
+  padding: 2.5rem;
+  color: #ffffff;
+}
+
+#request{
+  max-width: 25rem;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+#start {
+  max-width: 25rem;
+  margin-bottom: 1rem;
+  cursor: default;
+
+}
+
+#requestCard {
+  margin-right: 2rem;
+  transition: 0.8s;
+  max-width: 22rem;
+  border-radius: 0.4rem;
+  padding: 0.2rem;
+  grid-area: requestCard;
+}
+
+#requestCard:hover {
+  background-color: #2b2a2a;
+}
+
+#startCard {
+  margin-left: 2rem;
+  transition: 0.8s;
+  max-width: 22rem;
+  border-radius: 0.4rem;
+  padding: 0.2rem;
+  grid-area: startCard;
+}
+
+#startCard:hover {
+  background-color: #2b2a2a;
+}
+
+.requests {
+  color: #ffffff;
+  transition: 0.8s;
+}
+
+.requests:hover {
+  color: #a70a0a;
+}
+
+#artigs {
+  text-align: center;
+  padding:4rem 0 3rem 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+  'categoryCard sideBar'
+  'categoryCardTwo sideBarTwo'
+  ;
+}
+
+.categoryCard {
+  background-color: #f1f1f1;
+  max-width: 26rem;
+  margin: 0 0 0 2rem;
+  width: 100%;
+  padding-bottom: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  grid-area: categoryCard;
+} 
+
+.categoryCard:hover {
+  transform: scale(1.05);
+}
+
+.categoryCardTwo {
+  background-color: #f1f1f1;
+  max-width: 26rem;
+  margin: 1rem 0 0 2rem;
+  width: 100%;
+  padding-bottom: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  grid-area: categoryCardTwo;
+}
+
+.categoryCardTwo:hover {
+  transform: scale(1.05);
+}
+
+.sideBar {
+  background-color: #f1f1f1;
+  max-width: 26rem;
+  width: 100%;
+  margin: 0 0 0 2rem;
+  padding-bottom: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  grid-area: sideBar;
+}
+
+.sideBar:hover {
+  transform: scale(1.05);
+}
+
+.sideBarTwo {
+  background-color: #f1f1f1;
+  max-width: 26rem;
+  width: 100%;
+  margin: 1rem 0 0 2rem;
+  padding-bottom: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  grid-area: sideBarTwo;
+}
+
+.sideBarTwo:hover {
+  transform: scale(1.05);
+}
+
+.imgsContainer {
+  height: 12rem;
+  width: 28rem;
+  width: 100%;
+}
+
+.paragraphsCard{
+  padding: 1rem 0 1rem 0;
+  color: #000000;
+  margin-left: 1rem;
+}
+
+.categoryTitleCard {
+  font-size: 0.8rem;
+  color: #000000;
+  margin-bottom: 0.7rem;
+}
+
+.categoryDescriptionCard {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000000;
+  max-width: 22rem;
+  text-decoration: none;
+}
+
+.dateCard {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+#anchor {
+  color: #000000;
+  text-decoration: none;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  transition: 0.5s;
+  font-weight: 600;
+  max-width: 11rem;
+  margin: 0;
+  border: 1px solid transparent;
+}
+#anchor:hover {
+  color: #646464;
+  border-bottom: #444444;
+}
+
+.categoryCardsParagraphs {
+  text-decoration: none;
+}
+
+#history {
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+  color: #444444;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.6s;
+}
+#history:hover {
+  color: #000000;
+}
+
+#desenvolvily {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#desenvolvilyBtn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.6s;
+}
+
+#desenvolvilyBtn:hover {
+  color: #2b2a2a;
+  border-bottom: 1px solid #2b2a2a;
+  transform: scale(1.03);
+}
+
+#iconC {
+  width: 1rem;
+  padding-top: 1rem;
+}
+
+#footer {
+  background-color: #000000;
+  height: 35rem;
+  padding: 1.7rem;
+  height: 100%;
+}
+
+#mainFooter {
+  color: #ffffff;
+  min-height: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#paragraphFooter {
+  max-width: 25rem;
+  font-size: 0.89rem;
+}
+
+#centerFooter {
+  color: #ffffff;
+  transition: 0.6s;
+}
+
+#centerFooter:hover {
+  color: #444444;
+}
+
+#setLis {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+#mainUl {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 2rem;
+  grid-area: mainUl;
+}
+
+#productFooter {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#productFooter:hover {
+  color: #444444;
+  border-bottom: 1px solid #2b2a2a;
+}
+
+.mainBtnFooter {
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.4s;
+}
+.mainBtnFooter:hover {
+  color: #444444;
+  border-bottom: 1px solid #2b2a2a;
+}
+
+#topUl {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 20px;
+  grid-area: topUl;
+}
+
+#locFooter {
+  color: #ffffff;
+  display: flex;
+  gap: 20px;
+}
+
+#finallyFooter {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+}
+
+#iconFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#locsFooter {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.2rem;
+  border: 1px solid transparent;
+  background-color: transparent;
+  transition: 0.8s;
+}
+
+#apps {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 2.5rem;
+}
+
+#appImg {
+  width: 8rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#appImg:hover {
+  transform: scale(1.04);
+}
+
+#appImgPlay {
+  width: 7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#appImgPlay:hover {
+  transform: scale(1.04);
+}
+
+#uberTech {
+  padding-top: 2rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+#buttonsFooter {
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.btnFooter {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btnFooter:hover {
+  color: #444444;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1440px) {
+  .gridContainer {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 966px) {
+  .gridContainer {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'categoryCard'
+    'sideBar'
+    'categoryCardTwo'
+    'sideBarTwo'
+    ;
+  }
+  .categoryCard {
+    margin: 0;
+  }
+  .sideBar {
+    margin: 2rem 0 2rem 0;
+  }
+  .categoryCardTwo {
+    margin: 0;
+  }
+  .sideBarTwo {
+    margin: 2rem 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 847px) {
+  #topContent #imgUber {
+    max-width: 45rem;
+    height: 25rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 37rem;
+  }
+
+}
+
+@media screen and (max-width: 809px) {
+  #topContent #imgUber {
+    max-width: 43rem;
+    height: 25rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 37rem;
+  }
+
+  #paragraphs {
+    max-width: 40rem;
+    text-align: center;
+  }
+  #addressRio {
+    margin: 0;
+  }
+  #address {
+    max-width: 36rem;
+    margin-bottom: 0.6rem;
+    width: 100%;
+  }
+
+  #mainRequest {
+    display: grid;
+    padding: 1rem;
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    'requestCard'
+    'startCard'
+    ;
+  }
+
+  #requestCard {
+    margin-right: 0;
+  }
+
+  #startCard {
+    margin-left: 0;
+  }
+
+  #finally{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  #topContent #imgUber {
+    max-width: 39rem;
+    height: 23rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 35rem;
+  }
+
+  #address {
+    max-width: 36rem;
+    margin: 0 0.6rem 0;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 665px) {
+  #topContent #imgUber {
+    max-width: 33rem;
+    height: 23rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 29rem;
+  }
+
+  #address {
+    max-width: 33rem;
+    margin: 0 0 0.6rem 0;
+    width: 100%;
+  }
+  #paragraphs {
+    max-width: 35rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 560px) {
+  #topContent #imgUber {
+    max-width: 30rem;
+    height: 21rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 26rem;
+  }
+
+  #address {
+    max-width: 30rem;
+    margin: 0 0 0.6rem 0;
+    width: 100%;
+  }
+
+  #paragraphs {
+    max-width: 32rem;
+  }
+
+}
+
+@media screen and (max-width: 558px) {
+  #topContent #imgUber {
+    max-width: 27rem;
+    height: 18rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 23rem;
+  }
+  #guide {
+    font-size: 1.8rem;
+  }
+  #address {
+    max-width: 27rem;
+    margin: 0 0 0.6rem 0;
+    width: 100%;
+  }
+  #paragraphs {
+    max-width: 29rem;
+  }
+
+  #paragraphFooter {
+    margin: 2rem 0 2rem 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  #paragraphs {
+    max-width: 26rem;
+  }
+  .categoryCard {
+    max-width: 24rem;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+  } 
+  .sideBar {
+    max-width: 24rem;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+  .categoryCardTwo {
+    max-width: 24rem;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+  } 
+  .sideBarTwo {
+    max-width: 24rem;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:468px) {
+  #topContent #imgUber {
+    max-width: 24rem;
+    height: 16rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 22rem;
+  }
+  #guide {
+    font-size: 1.5rem;
+  }
+
+  #address {
+    max-width: 24rem;
+    margin: 0 0 0.6rem 0;
+    width: 100%;
+  }
+
+  #paragraphs {
+    max-width: 23rem;
+  }
+
+  .categoryCard {
+    max-width: 22rem;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 1rem;
+  } 
+  .sideBar {
+    max-width: 22rem;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+  .categoryCardTwo {
+    max-width: 22rem;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 1rem;
+  } 
+  .sideBarTwo {
+    max-width: 22rem;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:444px){
+  #navBar {
+    display: flex;
+    justify-content: center;
+  }
+
+  #navBarButtons {
+    display: flex;
+    justify-content: center;
+  }
+
+  #travel {
+    margin: 0;
+  }
+
+  #address {
+    max-width: 21rem;
+    margin: 0 0 0.6rem 0;
+    width: 100%;
+  }
+
+  #paragraphs {
+    max-width: 20rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  #topContent #imgUber {
+    max-width: 21rem;
+    height: 14rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 18rem;
+  }
+  #guide {
+    font-size: 1.3rem;
+  }
+
+  #address {
+    max-width: 18rem;
+    margin: 0 0 0.6rem 0;
+    width: 100%;
+  }
+
+  #paragraphs {
+    max-width: 18rem;
+    text-align: center;
+  }
+
+  #mainRequest {
+    text-align: center;
+  }
+
+  .categoryCard {
+    max-width: 19rem;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+  } 
+  .sideBar {
+    max-width: 19rem;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+  .categoryCardTwo {
+    max-width: 19rem;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 1rem;
+  } 
+  .sideBarTwo {
+    max-width: 19rem;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  #setLis {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: 
+    'mainUl'
+    'topUl'
+    ;
+  }
+  #buttonsFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  #topContent #imgUber {
+    max-width: 18rem;
+    height: 12rem;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #content {
+    max-width: 16rem;
+  }
+  #guide {
+    font-size: 1.2rem;
+  }
+  #address {
+    max-width: 15rem;
+    margin: 0 0 0.6rem 0;
+    width: 100%;
+  }
+
+  #paragraphs {
+    max-width: 19rem;
+    text-align: center;
+  }
+  .categoryCard {
+    max-width: 16rem;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+  } 
+  .sideBar {
+    max-width: 16rem;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+  .categoryCardTwo {
+    max-width: 16rem;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    padding-bottom: 1rem;
+  } 
+  .sideBarTwo {
+    max-width: 16rem;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width:325px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  #address {
+    max-width: 13rem;
+    margin: 0 0 0.6rem 0;
+    width: 100%;
+  }
+
+  #paragraphs {
+    max-width: 17rem;
+    text-align: center;
+  }
+}
