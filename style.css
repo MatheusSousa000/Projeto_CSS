@@ -424,23 +424,6 @@ nav {
   font-size: 0.8rem;
 }
 
-#anchor {
-  color: #000000;
-  text-decoration: none;
-  padding-left: 1rem;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  transition: 0.5s;
-  font-weight: 600;
-  max-width: 11rem;
-  margin: 0;
-  border: 1px solid transparent;
-}
-#anchor:hover {
-  color: #646464;
-  border-bottom: #444444;
-}
-
 .categoryCardsParagraphs {
   text-decoration: none;
 }
